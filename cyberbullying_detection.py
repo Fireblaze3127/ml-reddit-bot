@@ -188,8 +188,8 @@ class CyberbullyingDetectionEngine:
 
 if __name__ == '__main__':
     reddit = praw.Reddit( 
-        client_id = '***REMOVED***',  
-        client_secret = '***REMOVED***',
+        client_id = 'user client id',  
+        client_secret = 'user client secret',
         user_agent = 'cyberbullying model by /u/fireblaze3127' # Name your user agent whatever you like
     )
 

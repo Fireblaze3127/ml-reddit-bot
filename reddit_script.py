@@ -7,9 +7,9 @@ from sklearn.naive_bayes import MultinomialNB
 
 # Initalizing Reddit object which we will use to interact with the site
 reddit = praw.Reddit(
-    client_id = '***REMOVED***',  
-    client_secret = '***REMOVED***',
-    user_agent = 'reddit_script by /u/fireblaze3127' 
+    client_id = 'user client id',  
+    client_secret = 'user client secret',
+    user_agent = 'reddit_script by /u/fireblaze3127' # Name your user agent whatever you like
 )
 
 # If this prints, then you have successfully interacted with Reddit
